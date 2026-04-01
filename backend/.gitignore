@@ -1,0 +1,25 @@
+# Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FAISS and Data (IMPORTANT)
+# We don't upload the 50k vectors as they are too large
+data/*.index
+data/*.json
+*.csv
+*.xlsx
+
+# Environment & API Keys
+.env
+auth_keys.txt
+
+# IDE Settings
+.vscode/
+.idea/
